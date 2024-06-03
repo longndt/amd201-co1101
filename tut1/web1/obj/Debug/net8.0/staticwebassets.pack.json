@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\images\\StudentList.png",
+      "PackagePath": "staticwebassets\\images\\StudentList.png"
+    },
+    {
+      "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\js\\site.js",
@@ -83,6 +95,22 @@
     {
       "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
       "Id": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut1\\web1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",

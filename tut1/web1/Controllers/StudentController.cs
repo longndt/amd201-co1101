@@ -19,5 +19,13 @@ namespace web1.Controllers
             //path: Views/Student/Index.cshtml
             return View();
         }
+
+        //custom url: localhost:PORT/DanhSachSinhVien
+        [Route("/DanhSachSinhVien")]
+        public IActionResult List()
+        {
+            //custom view: Views/Demo/StudentList.cshtml
+            return View("~/Views/Demo/StudentList.cshtml");
+        }
     }
 }
