@@ -47,6 +47,20 @@ namespace web2.Data.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "role1",
+                            Name = "Administrator",
+                            NormalizedName = "ADMINISTRATOR"
+                        },
+                        new
+                        {
+                            Id = "role2",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -137,6 +151,40 @@ namespace web2.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "user1",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "ac61d8ff-1599-43bb-b8a2-90d8b390d83f",
+                            Email = "admin@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN@GMAIL.COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIDn+jQBEe6m7qLScHJ7TsyWskxkCc1lgMy+bcGQ9CBkXFMhun8pAjOkqKIw6IhdCA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "ad888c8c-5d99-44b9-94d7-71e183212e57",
+                            TwoFactorEnabled = false,
+                            UserName = "admin@gmail.com"
+                        },
+                        new
+                        {
+                            Id = "user2",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "3a948e44-e3ad-4761-9e03-5d184905a4d6",
+                            Email = "user@gmail.com",
+                            EmailConfirmed = true,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "USER@GMAIL.COM",
+                            NormalizedUserName = "USER@GMAIL.COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHHy2g/78Xxkprfv5bz4OKwL1+lthYV1cy2q3RW21680LTgjKdw0xUyEKbPBUz2WGQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "b3863d41-c0bb-4610-9029-141279f9db02",
+                            TwoFactorEnabled = false,
+                            UserName = "user@gmail.com"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -201,6 +249,18 @@ namespace web2.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "user1",
+                            RoleId = "role1"
+                        },
+                        new
+                        {
+                            UserId = "user2",
+                            RoleId = "role2"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -246,7 +306,8 @@ namespace web2.Data.Migrations
 
                     b.Property<string>("Model")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
@@ -257,6 +318,38 @@ namespace web2.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Laptop");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Brand = "Apple",
+                            Color = "Grey",
+                            Image = "https://bizweb.dktcdn.net/100/444/581/products/macbook-m1-vs-intel-1536x1268-6c00654d-ad87-4caf-8b88-aa6c34048199.png?v=1656134590567",
+                            Model = "Macbook Pro M2",
+                            Price = 2345m,
+                            Quantity = 10
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Brand = "Dell",
+                            Color = "Black",
+                            Image = "https://thegioiso365.vn/wp-content/uploads/2023/04/Dell-xps-9530-3.png",
+                            Model = "XPS15",
+                            Price = 1999m,
+                            Quantity = 15
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Brand = "LG",
+                            Color = "White",
+                            Image = "https://product.hstatic.net/1000333506/product/pc-gram-17z90q-b-gallery-02_dd780c6249ec430b84f82ed466fffd6e.jpg",
+                            Model = "Gram 17",
+                            Price = 2024m,
+                            Quantity = 22
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

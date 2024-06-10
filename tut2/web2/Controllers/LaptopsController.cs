@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,11 @@ using web2.Models;
 
 namespace web2.Controllers
 {
+    //restriction for logged in user
+    //[Authorize]
+
+    //restriction for "admin" role
+    //[Authorize(Roles = "Administrator")]
     public class LaptopsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -43,7 +49,7 @@ namespace web2.Controllers
             return View(laptop);
         }
 
-        // GET: Laptops/Create
+        [Authorize(Roles = "Administrator")]
         public IActionResult Create()
         {
             return View();
