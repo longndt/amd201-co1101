@@ -1,60 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{DB7BD2BA-4F6E-41B9-93A3-55B789F597AD}|web1\\web1.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\tut2\\web1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB7BD2BA-4F6E-41B9-93A3-55B789F597AD}|web1\\web1.csproj|solutionrelative:web1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB7BD2BA-4F6E-41B9-93A3-55B789F597AD}|web1\\web1.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\tut2\\web1\\views\\student\\studentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB7BD2BA-4F6E-41B9-93A3-55B789F597AD}|web1\\web1.csproj|solutionrelative:web1\\views\\student\\studentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 143,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web1\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "web1\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web1\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "web1\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T07:04:20.876Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 143,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentList.cshtml",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web1\\Views\\Student\\StudentList.cshtml",
-              "RelativeDocumentMoniker": "web1\\Views\\Student\\StudentList.cshtml",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web1\\Views\\Student\\StudentList.cshtml",
-              "RelativeToolTip": "web1\\Views\\Student\\StudentList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T07:19:32.421Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
