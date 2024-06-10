@@ -25,7 +25,7 @@ namespace web2.Controllers
             _context = context;
         }
 
-        // GET: Laptops
+        [Route("/")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Laptop.ToListAsync());
