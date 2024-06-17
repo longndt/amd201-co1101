@@ -17,6 +17,19 @@
 <table class="table">
     <thead>
         <tr>
+            <th colspan="4">
+                <a asp-controller="Laptops" asp-action="SortPriceAsc" 
+                class="btn btn-outline-success">Sort Price Asc</a>
+                <a asp-controller="Laptops" asp-action="SortPriceDesc" 
+                class="btn btn-outline-info">Sort Price Desc</a>
+            </th>
+            <th colspan="3">
+                <form asp-controller="Laptops" asp-action="SearchByName">
+                    <input class="form-control" type="search" placeholder="Enter name to search" required name="keyword" />
+                </form>
+            </th>
+        </tr>
+        <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Brand)
             </th>

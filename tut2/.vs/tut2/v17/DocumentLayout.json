@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_web2_920baf8b_017b_487e_9d90_f30d806f88d7/True/SqlTable/dbo.Laptop.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\tut2\\web2\\views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|solutionrelative:web2\\views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\tut2\\web2\\controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|solutionrelative:web2\\controllers\\laptopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\tut2\\web2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|solutionrelative:web2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\tut2\\web2\\models\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|solutionrelative:web2\\models\\laptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\tut2\\web2\\views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|solutionrelative:web2\\views\\laptops\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_web2_920baf8b_017b_487e_9d90_f30d806f88d7/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\tut2\\web2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4E5A375-742F-4EF1-9849-0944B207E557}|web2\\web2.csproj|solutionrelative:web2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +28,74 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 84,
+          "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 286,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Views\\Laptops\\Index.cshtml",
+              "RelativeDocumentMoniker": "web2\\Views\\Laptops\\Index.cshtml",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Views\\Laptops\\Index.cshtml",
+              "RelativeToolTip": "web2\\Views\\Laptops\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T07:25:45.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_web2_920baf8b_017b_487e_9d90_f30d806f88d7/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-17T07:22:37.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "web2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "web2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:13:03.919Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 345,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Laptop.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Models\\Laptop.cs",
+              "RelativeDocumentMoniker": "web2\\Models\\Laptop.cs",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Models\\Laptop.cs",
+              "RelativeToolTip": "web2\\Models\\Laptop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:39:52.694Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -35,45 +104,9 @@
               "RelativeDocumentMoniker": "web2\\Controllers\\LaptopsController.cs",
               "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Controllers\\LaptopsController.cs",
               "RelativeToolTip": "web2\\Controllers\\LaptopsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAswLIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T12:34:40.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "web2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "web2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T12:34:27.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Views\\Laptops\\Index.cshtml",
-              "RelativeDocumentMoniker": "web2\\Views\\Laptops\\Index.cshtml",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\tut2\\web2\\Views\\Laptops\\Index.cshtml",
-              "RelativeToolTip": "web2\\Views\\Laptops\\Index.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAD8AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T12:29:31.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Laptop [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_web2_920baf8b_017b_487e_9d90_f30d806f88d7/True/SqlTable/dbo.Laptop.sql",
-              "ToolTip": "dbo.Laptop [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-06-10T12:29:15.611Z",
+              "WhenOpened": "2024-06-17T07:31:08.193Z",
               "EditorCaption": ""
             }
           ]

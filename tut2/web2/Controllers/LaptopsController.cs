@@ -11,8 +11,6 @@ using web2.Models;
 
 namespace web2.Controllers
 {
-    //restriction for logged in user
-    //[Authorize]
 
     //restriction for "admin" role
     //[Authorize(Roles = "Administrator")]
@@ -25,6 +23,8 @@ namespace web2.Controllers
             _context = context;
         }
 
+        //restriction for logged in user
+        [Authorize(Roles = "Administrator")]
         [Route("/")]
         public async Task<IActionResult> Index()
         {
@@ -158,6 +158,24 @@ namespace web2.Controllers
         private bool LaptopExists(int id)
         {
             return _context.Laptop.Any(e => e.Id == id);
+        }
+
+        public IActionResult SortPriceAsc()
+        {
+            var laptops = _context.Laptop.OrderBy(lap => lap.Price).ToList();
+            return View("Index", laptops);
+        }
+
+        public IActionResult SortPriceDesc()
+        {
+            var laptops = _context.Laptop.OrderByDescending(lap => lap.Price).ToList();
+            return View("Index", laptops);
+        }
+
+        public IActionResult SearchByName(string keyword)
+        {
+            var laptops = _context.Laptop.Where(lap => lap.Model.Contains(keyword)).ToList();
+            return View("Index", laptops);
         }
     }
 }
