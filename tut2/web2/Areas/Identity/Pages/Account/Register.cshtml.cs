@@ -137,10 +137,10 @@ namespace web2.Areas.Identity.Pages.Account
                         protocol: Request.Scheme);
 
                     //1) set default role "User" for new user registration
-                    //await _userManager.AddToRoleAsync(user, "User");
+                    await _userManager.AddToRoleAsync(user, "User");
 
                     //2) set custom role based on user selection
-                    await _userManager.AddToRoleAsync(user, Input.Role);
+                    //await _userManager.AddToRoleAsync(user, Input.Role);
 
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");

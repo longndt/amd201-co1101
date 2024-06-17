@@ -19,7 +19,6 @@ namespace web2.Models
         [Range(1, 100, ErrorMessage = "Price must be from 100$ to $5000")]
         public decimal Price { get; set; }
 
-        [Url(ErrorMessage = "Invalid link")]
         public string Image { get; set; }
 
         public string Color { get; set; }   

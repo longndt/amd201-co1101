@@ -24,7 +24,7 @@ namespace web2.Controllers
         }
 
         //restriction for logged in user
-        [Authorize(Roles = "Administrator")]
+        [Authorize]
         [Route("/")]
         public async Task<IActionResult> Index()
         {
@@ -60,7 +60,7 @@ namespace web2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Brand,Model,Quantity,Price,Image,Color")] Laptop laptop)
+        public async Task<IActionResult> Create([Bind("Id,Brand,Model,Quantity,Price,Image,Color")] Laptop laptop, IFormFile Image)
         {
             if (ModelState.IsValid)
             {
