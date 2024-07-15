@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workspace\\FGW-AMD201\\amd201-co1102\\microservice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|d:\\workspace\\fgw-amd201\\amd201-co1102\\microservice\\laptop-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|solutionrelative:laptop-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|d:\\workspace\\fgw-amd201\\amd201-co1102\\microservice\\laptop-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|solutionrelative:laptop-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 144,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1102\\microservice\\laptop-service\\appsettings.json",
+              "RelativeDocumentMoniker": "laptop-service\\appsettings.json",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1102\\microservice\\laptop-service\\appsettings.json",
+              "RelativeToolTip": "laptop-service\\appsettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T07:05:23.939Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 256,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1102\\microservice\\laptop-service\\Program.cs",
+              "RelativeDocumentMoniker": "laptop-service\\Program.cs",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1102\\microservice\\laptop-service\\Program.cs",
+              "RelativeToolTip": "laptop-service\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T07:02:37.215Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
