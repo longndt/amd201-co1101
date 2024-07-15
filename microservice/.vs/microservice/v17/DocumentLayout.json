@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\Migrations\\20240715073059_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:laptop-service\\Migrations\\20240715073059_InitDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\mobile-service\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|solutionrelative:mobile-service\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0631B872-7546-4041-9E6F-769979DABB38}|api-gateway\\api-gateway.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\api-gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0631B872-7546-4041-9E6F-769979DABB38}|api-gateway\\api-gateway.csproj|solutionrelative:api-gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0631B872-7546-4041-9E6F-769979DABB38}|api-gateway\\api-gateway.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\api-gateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0631B872-7546-4041-9E6F-769979DABB38}|api-gateway\\api-gateway.csproj|solutionrelative:api-gateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0631B872-7546-4041-9E6F-769979DABB38}|api-gateway\\api-gateway.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\api-gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0631B872-7546-4041-9E6F-769979DABB38}|api-gateway\\api-gateway.csproj|solutionrelative:api-gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\mobile-service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|solutionrelative:mobile-service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 146,
+          "DockedWidth": 140,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -22,15 +38,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240715073059_InitDb.cs",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\Migrations\\20240715073059_InitDb.cs",
-              "RelativeDocumentMoniker": "laptop-service\\Migrations\\20240715073059_InitDb.cs",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\Migrations\\20240715073059_InitDb.cs",
-              "RelativeToolTip": "laptop-service\\Migrations\\20240715073059_InitDb.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADwvwAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\Program.cs",
+              "RelativeDocumentMoniker": "api-gateway\\Program.cs",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\Program.cs",
+              "RelativeToolTip": "api-gateway\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:30:59.978Z",
+              "WhenOpened": "2024-07-15T08:59:21.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "api-gateway\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "api-gateway\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T08:59:15.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gateway.json",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\gateway.json",
+              "RelativeDocumentMoniker": "api-gateway\\gateway.json",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\gateway.json",
+              "RelativeToolTip": "api-gateway\\gateway.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T08:52:59.036Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MobileController.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\Controllers\\MobileController.cs",
+              "RelativeDocumentMoniker": "mobile-service\\Controllers\\MobileController.cs",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\Controllers\\MobileController.cs",
+              "RelativeToolTip": "mobile-service\\Controllers\\MobileController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAADwvxgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:53:48.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "14cc3c8c-5b2d-41b2-bc5e-8efa3e34177b",
+        "Display": 0,
+        "X": -9,
+        "Y": 745,
+        "Width": 734,
+        "Height": 707,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "mobile-service\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\Properties\\launchSettings.json",
+              "RelativeToolTip": "mobile-service\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T08:54:50.925Z",
               "EditorCaption": ""
             }
           ]

@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "laptopService": {
+    "LaptopService": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

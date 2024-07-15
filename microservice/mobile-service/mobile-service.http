@@ -1,4 +1,4 @@
-@mobile_service_HostAddress = http://localhost:5253
+@mobile_service_HostAddress = http://localhost:5158
 
 GET {{mobile_service_HostAddress}}/weatherforecast/
 Accept: application/json
