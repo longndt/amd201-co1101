@@ -15,7 +15,7 @@ namespace laptop_service.Repositories
 
         public List<Laptop> DisplayAllLaptops()
         {
-            return _context.Laptop.ToList();
+            return _context.Laptop.OrderBy(lap => lap.Model).ToList();
         }
     }
 }
