@@ -453,22 +453,6 @@
           "build/net8.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.InMemory/8.0.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.7"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.Relational/8.0.7": {
         "type": "package",
         "dependencies": {
@@ -2326,21 +2310,6 @@
         "lib/net8.0/Microsoft.EntityFrameworkCore.Design.xml",
         "microsoft.entityframeworkcore.design.8.0.7.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.InMemory/8.0.7": {
-      "sha512": "LMboWsjFFD+i24pvKwxEz24D0NUPlE7+M6gHYcSLioShxKhsPs/OXcB2E6kWTXHK/HIOM88e0rVNyZylCI81FA==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.inmemory/8.0.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "PACKAGE.md",
-        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll",
-        "lib/net8.0/Microsoft.EntityFrameworkCore.InMemory.xml",
-        "microsoft.entityframeworkcore.inmemory.8.0.7.nupkg.sha512",
-        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/8.0.7": {
@@ -4548,7 +4517,6 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 8.0.7",
-      "Microsoft.EntityFrameworkCore.InMemory >= 8.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -4561,11 +4529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\laptop-service.csproj",
-      "projectName": "laptop-service",
-      "projectPath": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\laptop-service.csproj",
+      "projectUniqueName": "D:\\workspace\\FGW\\AMD201\\microservice\\laptop-service\\laptop_service.csproj",
+      "projectName": "laptop_service",
+      "projectPath": "D:\\workspace\\FGW\\AMD201\\microservice\\laptop-service\\laptop_service.csproj",
       "packagesPath": "C:\\Users\\GRAM\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\obj\\",
+      "outputPath": "D:\\workspace\\FGW\\AMD201\\microservice\\laptop-service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4605,10 +4573,6 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[8.0.7, )"
-          },
-          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[8.0.7, )"
           },

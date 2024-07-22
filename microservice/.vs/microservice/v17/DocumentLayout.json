@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\",
+  "WorkspaceRootPath": "D:\\workspace\\FGW\\AMD201\\microservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\laptop-service\\controllers\\laptopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|solutionrelative:laptop-service\\controllers\\laptopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|d:\\workspace\\fgw\\amd201\\microservice\\api-gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|solutionrelative:api-gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\laptop-service\\repositories\\laptoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{704AE5EB-5D06-4804-8BBB-F8536D4E69C0}|laptop-service\\laptop-service.csproj|solutionrelative:laptop-service\\repositories\\laptoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\mobile-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|solutionrelative:mobile-service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\mobile-service\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|solutionrelative:mobile-service\\controllers\\mobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\mobile-service\\models\\mobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D8E0A23-89D4-4029-A9CC-742EDDAB2383}|mobile-service\\mobile-service.csproj|solutionrelative:mobile-service\\models\\mobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|d:\\workspace\\fgw\\amd201\\microservice\\api-gateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|solutionrelative:api-gateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,75 +17,47 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 140,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 49,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LaptopRepository.cs",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\Repositories\\LaptopRepository.cs",
-              "RelativeDocumentMoniker": "laptop-service\\Repositories\\LaptopRepository.cs",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\Repositories\\LaptopRepository.cs",
-              "RelativeToolTip": "laptop-service\\Repositories\\LaptopRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T08:06:38.271Z",
-              "EditorCaption": ""
-            },
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LaptopController.cs",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\Controllers\\LaptopController.cs",
-              "RelativeDocumentMoniker": "laptop-service\\Controllers\\LaptopController.cs",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\Controllers\\LaptopController.cs",
-              "RelativeToolTip": "laptop-service\\Controllers\\LaptopController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW\\AMD201\\microservice\\api-gateway\\Program.cs",
+              "RelativeDocumentMoniker": "api-gateway\\Program.cs",
+              "ToolTip": "D:\\workspace\\FGW\\AMD201\\microservice\\api-gateway\\Program.cs",
+              "RelativeToolTip": "api-gateway\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T08:06:27.358Z",
+              "WhenOpened": "2024-07-22T08:59:30.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\appsettings.json",
-              "RelativeDocumentMoniker": "mobile-service\\appsettings.json",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\appsettings.json",
-              "RelativeToolTip": "mobile-service\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAA9AAAA",
+              "DocumentIndex": 1,
+              "Title": "gateway.json",
+              "DocumentMoniker": "D:\\workspace\\FGW\\AMD201\\microservice\\api-gateway\\gateway.json",
+              "RelativeDocumentMoniker": "api-gateway\\gateway.json",
+              "ToolTip": "D:\\workspace\\FGW\\AMD201\\microservice\\api-gateway\\gateway.json",
+              "RelativeToolTip": "api-gateway\\gateway.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T10:29:38.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MobileController.cs",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\Controllers\\MobileController.cs",
-              "RelativeDocumentMoniker": "mobile-service\\Controllers\\MobileController.cs",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\Controllers\\MobileController.cs",
-              "RelativeToolTip": "mobile-service\\Controllers\\MobileController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAADwvyAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T09:51:58.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Mobile.cs",
-              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\Models\\Mobile.cs",
-              "RelativeDocumentMoniker": "mobile-service\\Models\\Mobile.cs",
-              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\mobile-service\\Models\\Mobile.cs",
-              "RelativeToolTip": "mobile-service\\Models\\Mobile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T09:51:47.405Z"
+              "WhenOpened": "2024-07-22T08:59:33.109Z"
             }
           ]
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nkQ3KSS4z8s=",
+  "dgSpecHash": "zm4wzATukz8=",
   "success": true,
-  "projectFilePath": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\laptop-service\\laptop-service.csproj",
+  "projectFilePath": "D:\\workspace\\FGW\\AMD201\\microservice\\laptop-service\\laptop_service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GRAM\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\GRAM\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -20,7 +20,6 @@
     "C:\\Users\\GRAM\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.7\\microsoft.entityframeworkcore.abstractions.8.0.7.nupkg.sha512",
     "C:\\Users\\GRAM\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.7\\microsoft.entityframeworkcore.analyzers.8.0.7.nupkg.sha512",
     "C:\\Users\\GRAM\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.7\\microsoft.entityframeworkcore.design.8.0.7.nupkg.sha512",
-    "C:\\Users\\GRAM\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.7\\microsoft.entityframeworkcore.inmemory.8.0.7.nupkg.sha512",
     "C:\\Users\\GRAM\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.7\\microsoft.entityframeworkcore.relational.8.0.7.nupkg.sha512",
     "C:\\Users\\GRAM\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.7\\microsoft.entityframeworkcore.sqlserver.8.0.7.nupkg.sha512",
     "C:\\Users\\GRAM\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.7\\microsoft.entityframeworkcore.tools.8.0.7.nupkg.sha512",

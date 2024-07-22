@@ -15,7 +15,28 @@ namespace laptop_service.Repositories
 
         public List<Laptop> DisplayAllLaptops()
         {
-            return _context.Laptop.OrderBy(lap => lap.Model).ToList();
+            try
+            {
+                var laptops = _context.Laptop.ToList();
+                return laptops;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public Laptop DisplayLaptopById(int id)
+        {
+            try
+            {
+                var laptop = _context.Laptop.FirstOrDefault(lap => lap.Id == id);
+                return laptop;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
     }
 }

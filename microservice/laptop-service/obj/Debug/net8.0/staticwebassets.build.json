@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "1s3DTCMql/Y4mxearBLQM4bSDwSvQJiohd/xoqEcMyE=",
-  "Source": "laptop-service",
-  "BasePath": "_content/laptop-service",
+  "Hash": "5AFpwE1J/9xnhb2dqDF1TsSN+PvoaBa1LIkHHCOsLtg=",
+  "Source": "laptop_service",
+  "BasePath": "_content/laptop_service",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
