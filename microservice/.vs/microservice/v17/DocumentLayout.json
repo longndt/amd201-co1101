@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\workspace\\FGW\\AMD201\\microservice\\",
+  "WorkspaceRootPath": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|d:\\workspace\\fgw\\amd201\\microservice\\api-gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\api-gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|solutionrelative:api-gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|d:\\workspace\\fgw\\amd201\\microservice\\api-gateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B01FA713-BE5F-440F-9CA6-3A29A3FE3A86}|client\\client.esproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\client\\src\\laptop.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B01FA713-BE5F-440F-9CA6-3A29A3FE3A86}|client\\client.esproj|solutionrelative:client\\src\\laptop.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01FA713-BE5F-440F-9CA6-3A29A3FE3A86}|client\\client.esproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B01FA713-BE5F-440F-9CA6-3A29A3FE3A86}|client\\client.esproj|solutionrelative:client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|d:\\workspace\\fgw-amd201\\amd201-co1101\\microservice\\api-gateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2D1C1C24-F4F8-46D9-80D0-88C6DF0313FA}|api-gateway\\api_gateway.csproj|solutionrelative:api-gateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -32,28 +40,54 @@
         },
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Laptop.jsx",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\client\\src\\Laptop.jsx",
+              "RelativeDocumentMoniker": "client\\src\\Laptop.jsx",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\client\\src\\Laptop.jsx",
+              "RelativeToolTip": "client\\src\\Laptop.jsx",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-26T06:00:27.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.css",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\client\\src\\index.css",
+              "RelativeDocumentMoniker": "client\\src\\index.css",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\client\\src\\index.css",
+              "RelativeToolTip": "client\\src\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-26T06:00:26.462Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\workspace\\FGW\\AMD201\\microservice\\api-gateway\\Program.cs",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\Program.cs",
               "RelativeDocumentMoniker": "api-gateway\\Program.cs",
-              "ToolTip": "D:\\workspace\\FGW\\AMD201\\microservice\\api-gateway\\Program.cs",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\Program.cs",
               "RelativeToolTip": "api-gateway\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAACkAAAAMAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T08:59:30.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "gateway.json",
-              "DocumentMoniker": "D:\\workspace\\FGW\\AMD201\\microservice\\api-gateway\\gateway.json",
+              "DocumentMoniker": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\gateway.json",
               "RelativeDocumentMoniker": "api-gateway\\gateway.json",
-              "ToolTip": "D:\\workspace\\FGW\\AMD201\\microservice\\api-gateway\\gateway.json",
+              "ToolTip": "D:\\workspace\\FGW-AMD201\\amd201-co1101\\microservice\\api-gateway\\gateway.json",
               "RelativeToolTip": "api-gateway\\gateway.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

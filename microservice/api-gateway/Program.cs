@@ -46,6 +46,4 @@ app.UseHttpsRedirection();
 // (C) enable Ocelot
 await app.UseOcelot();
 
-
-
 app.Run();
