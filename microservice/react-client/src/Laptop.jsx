@@ -1,36 +1,34 @@
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from 'axios'
+import { useState, useEffect } from 'react'
 
-function Laptop() {
-    const server = 'https://localhost:8888/laptops';
-
-    const [laptops, setLaptops] = useState([]);
-    const [error, setError] = useState(null);
+const Laptop = () => {
+    const api = 'https://localhost:8888/laptops'
+    const [laptops, setLaptops] = useState([])
+    const [error, setError] = useState(null)
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get(server);
-                setLaptops(response.data);
-            } catch (error) {
-                setError(error.message);
+                const { data } = await axios.get(api)
+                setLaptops(data)
+            } catch (err) {
+                setError(err.message)
             }
-        };
+        }
 
-        fetchData();
-    }, [server]);
+        fetchData()
+    }, [])
 
     if (error) {
-        return <div> Error: {error}</div>;
+        return <div>Error: {error}</div>
     }
 
     return (
-        <div className="container">
+        <div className="container text-center">
             <table className="table table-danger mt-5">
                 <thead>
                     <tr>
-                        <th colSpan="3" className="h4 text-primary">
-                            LAPTOP LIST</th>
+                        <th colSpan="3" className="h4 text-primary">LAPTOP LIST</th>
                     </tr>
                     <tr>
                         <th>Laptop Id</th>
@@ -49,7 +47,7 @@ function Laptop() {
                 </tbody>
             </table>
         </div>
-    );
+    )
 }
 
-export default Laptop;
+export default Laptop

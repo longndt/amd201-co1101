@@ -1,3 +1,0 @@
-D:\workspace\FGW\AMD201\microservice-demo\client\obj\Debug\client.esproj.CoreCompileInputs.cache
-D:\workspace\FGW\AMD201\microservice\client\obj\Debug\client.esproj.CoreCompileInputs.cache
-D:\workspace\FGW-AMD201\amd201-co1101\microservice\client\obj\Debug\client.esproj.CoreCompileInputs.cache

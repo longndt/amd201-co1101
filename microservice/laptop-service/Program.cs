@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddDbContext<laptop_serviceContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("laptop_serviceContext") ??
     throw new InvalidOperationException("Connection string 'laptop_serviceContext' not found.")));

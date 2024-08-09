@@ -12,14 +12,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// (A) config Ocelot gateway
+//config Ocelot gateway
 builder.Configuration.AddJsonFile(
   "gateway.json",
   optional: false,
   reloadOnChange: true
   );
 
-// (B) setup cache manager for Ocelot
+//setup cache manager for Ocelot
 builder.Services.AddOcelot(builder.Configuration).AddCacheManager(x =>
 {
     x.WithDictionaryHandle();
@@ -43,7 +43,7 @@ app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
 
-// (C) enable Ocelot
+//add Ocelot to container 
 await app.UseOcelot();
 
 app.Run();
